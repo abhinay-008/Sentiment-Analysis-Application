@@ -1,6 +1,6 @@
-# Sentiment Analysis App
+# Sentiment Analysis Application using Python
 
-A simple Machine Learning and Natural Language Processing (NLP) based web application that predicts whether a given tweet or text is Positive, Negative, or Neutral.
+A simple Machine Learning based web application that predicts whether a given text is Positive, Negative, or Neutral.
 
 The project was developed using Python, Scikit-learn, and Streamlit.
 
@@ -8,9 +8,8 @@ The project was developed using Python, Scikit-learn, and Streamlit.
 
 # Features
 
-- Real-time sentiment prediction
+- Real-time sentiment prediction.
 - Positive, Negative, and Neutral classification
-- Confidence score display
 - Color-coded output interface
 - Interactive Streamlit web application
 
@@ -31,7 +30,7 @@ The project was developed using Python, Scikit-learn, and Streamlit.
 
 # Dataset Used
 
-Twitter Sentiment Dataset from Kaggle.
+Twitter Sentiment Dataset from Kaggle containing 50,000+ labelled tweets.
 
 Dataset contains:
 - Positive tweets
@@ -64,3 +63,17 @@ project/
 ├── vectorizer.pkl
 ├── requirements.txt
 └── README.md
+```
+
+# How to Run
+
+Run these commands from the project folder.
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+
